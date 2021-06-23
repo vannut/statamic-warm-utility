@@ -1,0 +1,23 @@
+{
+    "name": "vannut/statamic-warm-utility",
+    "description": "Warm your cache from the CP",
+    "keywords": ["statamic", "utility"],
+    "homepage": "https://github.com/vannut/statamic-warm-utility",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vannut\\WarmUtility\\": "src"
+        }
+    },
+    "extra": {
+        "statamic": {
+            "name": "Warm Utility",
+            "description": "Warm your cache from the CP"
+        },
+        "laravel": {
+            "providers": [
+                "Vannut\\WarmUtility\\ServiceProvider"
+            ]
+        }
+    }
+}
